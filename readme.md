@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -23,3 +24,16 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+=======
+CSCI-E15-P3
+Harvard Fall 2014, Prof. Susan Buck
+
+A Developer's Toolbox
+The goal of this project is to get hands-on practice with working with the essentials of building a Laravel-based site.
+In this project, you will find a demonstrate an understanding of the following skills:
+Creating a new Laravel app.
+Installing and using Composer packages.
+Routing basics.
+Views.
+Deploying a Laravel app on a live server.
+>>>>>>> 52e07895a18a0c80af22f430b37d62b1efd370c7
