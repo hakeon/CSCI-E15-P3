@@ -11,4 +11,14 @@
 |
 */
 
+// Home page route
 Route::get('/', 'HomeController@showWelcome');
+
+// Lorem Ipsum route
+Route::get('/lorem', 'HomeController@loremIpsum');
+
+// Random user route
+Route::get('/user', 'HomeController@randomUser');
+
+// xkcd password generator route
+Route::get('/xkcd', 'HomeController@xkcd');

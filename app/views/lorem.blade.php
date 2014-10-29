@@ -2,9 +2,9 @@
 
 @section('title')
 @parent
-| Home
+| Lorem Ipsum
 @stop
 
 @section('content')
-<h1>Home Page</h1>
+<h1>Lorem Ipsum</h1>
 @stop

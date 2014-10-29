@@ -2,9 +2,9 @@
 
 @section('title')
 @parent
-| Home
+| Random User
 @stop
 
 @section('content')
-<h1>Home Page</h1>
+<h1>Random User</h1>
 @stop

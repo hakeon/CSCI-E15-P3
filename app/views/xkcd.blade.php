@@ -2,9 +2,9 @@
 
 @section('title')
 @parent
-| Home
+| xlcd
 @stop
 
 @section('content')
-<h1>Home Page</h1>
+<h1>xkcd</h1>
 @stop

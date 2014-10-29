@@ -3,7 +3,7 @@
     <head>
         <title>
             @section('title')
-            Laravel 4 - Tutorial
+            Developer's Best Friend
             @show
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
         <!-- CSS are placed here -->
         {{ HTML::style('css/bootstrap.css') }}
         {{ HTML::style('css/bootstrap-theme.css') }}
+        {{ HTML::style('css/p3style.css') }}
 
         <style>
         @section('styles')
@@ -34,12 +35,15 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="#">Laravel</a>
+                    <a class="navbar-brand" href="http://p1.hakeon.me">Brad Jackson</a>
                 </div>
                 <!-- Everything you want hidden at 940px or less, place within here -->
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="{{{ URL::to('') }}}">Home</a></li>
+                        <li><a href="{{{ URL::to('/lorem') }}}">Lorem Ipsum</a></li>
+                        <li><a href="{{{ URL::to('/user') }}}">Random User</a></li>
+                        <li><a href="{{{ URL::to('/xkcd') }}}">xkcd</a></li>
                     </ul>
                 </div>
             </div>
