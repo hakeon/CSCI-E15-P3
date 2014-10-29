@@ -6,16 +6,16 @@ body:before {
     z-index: -1;
 
     display: block;
-    background-image: url('http://fedoraproject.org/w/uploads/8/81/Artwork_F10Themes_Binary_grid_animated.gif');
+    background-image: url('http://33.media.tumblr.com/1f374b0fa3efe44dd75b2713a4e5d594/tumblr_n35g1fbaGQ1twkrf5o1_500.gif');
     width: 1440px;
     height: 800px;
     display: compact;
 
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
 
 body {
