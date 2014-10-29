@@ -26,3 +26,16 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.content {
+    padding:10px;
+    height: 55rem;
+}
+
+.footer {
+    width:10%;
+    height:10px;
+    float: right;
+    bottom:0;
+    left:0;
+}

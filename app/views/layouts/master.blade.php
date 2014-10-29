@@ -50,16 +50,22 @@
         </div>
 
         <!-- Container -->
-        <div class="container">
+        <div class="content">
+            <div class="container">
 
             <!-- Content -->
             @yield('content')
 
-        </div>
+            </div>
+		</div>
 
         <!-- Scripts are placed here -->
         {{ HTML::script('js/jquery-1.11.1.min.js') }}
         {{ HTML::script('js/bootstrap.min.js') }}
+
+		<div class="footer">
+		&copy; {{{ date("Y") }}} copywrite
+		</div>
 
     </body>
 </html>
