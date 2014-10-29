@@ -59,13 +59,15 @@
             </div>
 		</div>
 
-        <!-- Scripts are placed here -->
-        {{ HTML::script('js/jquery-1.11.1.min.js') }}
-        {{ HTML::script('js/bootstrap.min.js') }}
-
 		<div class="footer">
 		&copy; {{{ date("Y") }}} copywrite
 		</div>
+
+        <!-- Scripts are placed here -->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     </body>
 </html>
