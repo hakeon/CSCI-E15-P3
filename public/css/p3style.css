@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body:before {
     content: "";
     position: fixed;
@@ -10,6 +14,7 @@ body:before {
     width: 1440px;
     height: 800px;
     display: compact;
+    background-attachment: fixed;
 
     -webkit-filter: blur(25px);
     -moz-filter: blur(25px);
@@ -25,11 +30,12 @@ body {
     z-index: 0;
     margin-left: 20px;
     margin-right: 20px;
+    height: 100%;
 }
 
 .content {
     padding:10px;
-    height: 55rem;
+    height: 95%;
 }
 
 .footer {
@@ -38,4 +44,11 @@ body {
     float: right;
     bottom:0;
     left:0;
+}
+
+.loremContent {
+    float: left;
+    width: 80%;
+    height: 250px;
+    overflow: auto;
 }
