@@ -15,29 +15,27 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	// Home page controller
+	/* Home page controller
     public function showWelcome()
 	{
 		return View::make('home');
-	}
+	}*/
 
 
-    // Lorem ipsum controller
+    /* Lorem ipsum controller
     public function loremIpsum()
     {
         return View::make('lorem');
-    }
+    }*/
 
-    // User controller
+    /* User controller
     public function randomUser()
     {
         return View::make('user');
-    }
+    }*/
 
-    // xkcd controller
+    /* xkcd controller
     public function xkcd()
     {
         return View::make('xkcd');
-    }
-
-}
+    }*/

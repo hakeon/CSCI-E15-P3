@@ -49,6 +49,6 @@ body {
 .loremContent {
     float: left;
     width: 80%;
-    height: 250px;
+    height: 300px;
     overflow: auto;
 }
