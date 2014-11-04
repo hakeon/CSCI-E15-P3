@@ -6,7 +6,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
         "twitter/bootstrap": "3.2.*@dev",
-        "badcow/lorem-ipsum": "dev-master"
+        "badcow/lorem-ipsum": "dev-master",
+        "fzaninotto/faker": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
