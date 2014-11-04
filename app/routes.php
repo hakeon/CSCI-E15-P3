@@ -12,29 +12,39 @@
 */
 
 // Home page route
-Route::get('/', function() {
+Route::get('/', function()
+{
     return View::make('home');
 });
 
 // Lorem Ipsum route
-Route::get('/lorem', function() {
+Route::get('/lorem', function()
+{
     return View::make('lorem');
 });
 
 // Random user route
-Route::get('/user', function() {
+Route::get('/user', function()
+{
     return View::make('user');
 });
 
 // xkcd password generator route
-Route::get('/xkcd', function() {
+Route::get('/xkcd', function()
+{
     return View::make('xkcd');
 });
 
-Route::post('/lorem', function() {
-    $count = Input::get('count');
+Route::get('/lorem', function()
+{
+    return View::make('/lorem');
 });
 
-Route::get('/lorem', function() {
-    return View::make('/lorem');
+Route::post('/loremtext', function()
+{
+    $number = Input::get('number');
+	$generator = new Badcow\LoremIpsum\Generator();
+    $paragraphs = $generator->getParagraphs($number);
+    $text = implode('<p>', $paragraphs);
+    return View::make('/loremtext')->with('text', $text);
 });
