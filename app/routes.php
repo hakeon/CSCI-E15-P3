@@ -24,12 +24,8 @@ Route::get('/user', function() {
 // Random user output route
 Route::post('/userlist', function() {
     $number = Input::get('number');
-    for($i = 0; $i <= $number; $i++){
-        $faker = Faker\Factory::create();
-        $user = $faker->unique()->name;
-    };
-    return View::make('/userlist')->with('user', $user);
-
+    $faker = Faker\Factory::create();
+    return View::make('/userlist')->with('faker', $faker)->with('number', $number);
 });
 
 // xkcd password generator route

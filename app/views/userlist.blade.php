@@ -10,7 +10,13 @@
 <h1>User List</h1>
 <hr>
 	<div class="well">
-		{{ $user }}
+		@for($i = 1; $i <= $number; $i++)
+             {{ $faker -> name }}
+             |  {{ $faker -> address }}
+             |  {{ $faker -> phoneNumber }}
+             <br>
+             <br>
+        @endfor
 	</div>
 
 @stop
