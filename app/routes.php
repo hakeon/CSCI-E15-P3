@@ -33,6 +33,13 @@ Route::get('/xkcd', function() {
     return View::make('xkcd');
 });
 
+// xkcd result display route
+Route::post('/xkcd_display', function() {
+    $number = Input::get('number');
+    $words = file('words.txt');
+    return View::make('/xkcd_display')->with('number', $number)->with('words', $words);
+});
+
 // Lorem Ipsum route
 Route::get('/lorem', function() {
     return View::make('lorem');

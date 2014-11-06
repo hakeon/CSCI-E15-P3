@@ -43,7 +43,6 @@
                         <li><a href="{{{ URL::to('') }}}">Home</a></li>
                         <li><a href="{{{ URL::to('/lorem') }}}">Lorem Ipsum</a></li>
                         <li><a href="{{{ URL::to('/user') }}}">Random User</a></li>
-                        <li><a href="{{{ URL::to('/xkcd') }}}">xkcd</a></li>
                     </ul>
                 </div>
             </div>
