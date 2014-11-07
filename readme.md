@@ -1,7 +1,7 @@
 #CSCI-E15-P3#
 ##Harvard Fall 2014, Prof. Susan Buck##
 
-Live link: P3.HAKEON.ME
+Live link: P3.HAKEON.ME <br>
 Demo link: <a href="http://screencast.com/t/RHfggloAKlg" target=_blank>P3 Demo</a>
 
 #A Developer's Toolbox#
